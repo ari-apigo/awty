@@ -24,7 +24,6 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textMultiLine"
-        android:text="Enter a message"
         app:layout_constraintStart_toEndOf="@id/tvMessage"
         app:layout_constraintBaseline_toBaselineOf="@id/tvMessage" />
 
@@ -66,7 +65,6 @@
         android:id="@+id/btnStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:enabled="false"
         android:text="Start"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
